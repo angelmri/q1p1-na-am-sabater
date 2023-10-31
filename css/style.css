@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+@font-face {
+    font-family: 'CoffeCake';
+    src: 
+        url(CoffeCake.otf) format('opentype');
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* general layout of pages */
+.header{
+    display: block;
+    position: fixed;
+    border: 2px solid #486531;
+    background-color: #93dc8c;
+    top: 0;
+    height: 10vh;
+    width: 100%;
+}
+.header img{
+    display: inline;
+    height: 50px;
+    width: 50px;
+    border: 2px solid #6cb06f;
+    border-radius: 360px;
+    margin-left: 4vw;
+    margin-top: 1vh;
+
+}
+/* navbar */
+.navbar{
+    float: right;
+   display: block;
+}
+.navbar a:hover{
+    background-color: rgb(218, 240, 180);
+    padding: 1vw;
+}
+/* links of navbar */
+#links{
+    display: inline-block;
+    padding: 1vw;
+    margin: 0.4vh;
+    margin-top: 0.4vw;
+    margin-right: 1vw;
+}
+#links a{
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(27, 99, 46);
+    font-family: 'Playpen Sans', cursive;
+}
+/* navbar end */
+
+.main{ 
+    /* main layout of all pages */
+    margin-top: 62px;
+    display: inline-block;
+    background-color: rgb(175, 236, 167);
+    width: 100%;
+    height: 100%;
+    font-family: 'Playpen Sans', cursive;   
+}
+/* intro page */
+#title{
+    margin: 20vh;
+    padding: 3vw;
+    border: 2px solid rgba(21, 117, 16, 0.889);
+    background-image: url(../pics/bg.jpg);
+    background-size: cover;
+    font-size: 4vw;
+}
+#title h1{
+    color: #245217;
+    font-family: 'CoffeCake', Fallback, sans-serif; 
+}
+
+#title p{
+    color: #486531;
+    font-family: 'CoffeCake', Fallback, sans-serif; 
+}
+/* about researchers */
+.content{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10vw;
+}
+/* faces and names of members */
+.members{
+    margin: 1vw;
+    padding: 3vw;
+    align-items: center;
+    border: 2px solid rgb(95, 173, 91);
+    width: 16vw;
+}
+.members b{
+    color:rgb(43, 185, 14);
+}
+/* image of members */
+.members img{
+    display: inline;  
+    margin-left: auto;
+    margin-right: right;
+    height: 100px;
+    width: 100px;
+    border: 2px solid #387939;
+    border-radius: 360px;
+    margin-top: 6vw;
+}
+/* names of members */
+.y h3{
+    display:block;
+    text-decoration: none;
+    color:#1e501a;
+    margin-bottom: 1vw;
+    font-size: larger;
+}
+.e h3{
+    display:block;
+    text-decoration: none;
+    color:#1e501a;
+    margin-bottom: 3vw;
+    font-size: larger;
+}
+.s h3{
+    display:block;
+    text-decoration: none;
+    color:#1e501a;
+    font-size: larger;
+
+}
+/* descriptions of members */
+.descriptions{
+    display: inline-block;
+    border: 2px solid rgb(95, 173, 91);
+    margin  : 1vw;
+    padding: 3vw;
+    font-size: large;
+    color: #486531;
+} 
+/* title of description */
+.descriptions h1{
+    text-align: center;
+    margin-bottom: 2vw;
+    font-family: 'CoffeCake', Fallback, sans-serif;
+    font-size: 3vw;
+    color: #10270e;
+}
+.descriptions p{
+    margin-top: 7vw;
+    margin-bottom: 7vw;
+}
+#angela p{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 6vw;
+}
+.descriptions ul{
+    padding-left: 4vw;
+}
+
+/* data */
+.intro-tables{
+    text-align: center;
+}
+.intro-tables h1{
+    margin-top: 4vw;
+    font-family: 'CoffeCake', Fallback, sans-serif;
+    font-size: 3em;
+    color: #10270e;
+}
+
+.intro-tables p{
+    margin: 5vw;
+    font-size: larger;
+    text-align: justify;
+    color: #486531;
+}
+/* table itself */
+.table{
+    margin: 5px;
+    padding-bottom: 5vw;
+    text-align: center;
+
+}
+.table th{
+    border: 2px solid #51c948;
+    background-color: #93eb97;
+    font-size: large;
+    color: #143c16;
+}
+.table td{
+    border: 2px solid darkgreen;
+    font-size: small;
+    color: #486531;
+}
+
+/* study */
+.banner{
+    text-align: center;
+    margin-bottom: 5vw;
+}
+.data h2{
+    margin-top: 4vw;
+    font-family: 'CoffeCake', Fallback, sans-serif;
+    font-size: 3em;
+    color: #10270e; 
+    background-color: #8bf186;
+    padding: 2vw;
+}
+.intro h1{
+    margin: 30vh;
+    margin-top: 3vw; 
+    margin-bottom: 5vw; 
+    padding: 3vw;
+    border: 2px solid rgba(21, 117, 16, 0.889);
+    background-color: #93dc8c;
+    font-family: 'CoffeCake', Fallback, sans-serif;
+    color: #245217;
+    font-size: 4em;
+}
+.intro p{
+    text-align: justify;
+    color: #486531;
+    margin: 5vw;
+    margin-top: 0px;  
+    padding: 3vw;
+    border: 2px solid rgba(21, 117, 16, 0.889);
+}
+/* gross sales */
+.gross-sales-img{
+    display: flex;
+    flex: 66.66%;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+}
+.gross-sales img{
+    max-width: 45vw;
+    max-height: 65vh;
+    margin: 1vw;
+    border: 2px solid rgba(21, 117, 16, 0.889);
+}
+.gross-sales p{
+    display: inline-block;
+    text-align: justify;
+    border: 2px solid rgb(95, 173, 91);
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 3vw;
+    font-size: large;
+    color: #486531;
+    margin-bottom: 5vw;
+}
+/* production budget */
+.prod-budget-img{
+    display: flex;
+    flex: 66.66%;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+}
+.prod-budget img{
+    max-width: 45vw;
+    max-height: 65vh;
+    margin: 1vw;
+    border: 2px solid rgba(21, 117, 16, 0.889);   
+}
+.prod-budget p{
+    display: inline-block;
+    text-align: justify;
+    border: 2px solid rgb(95, 173, 91);
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 3vw;
+    font-size: large;
+    color: #486531;
+    margin-bottom: 5vw;
+}
+/* distribution company */
+/* production budget per distribution company */
+.distribution-comp-prod-budget{
+    display: flex;
+    margin: 5vw;
+    flex: 66.66%
+}
+.distribution-comp-prod-budget p{
+    display: inline-block;
+    text-align: justify;
+    border: 2px solid rgb(95, 173, 91);
+    margin-left: 5vw;   
+    margin-top: 3vw; 
+    margin-bottom: 3vw;   
+    padding: 3vw;
+    font-size: large;
+    color: #486531;
+}
+.distribution-comp-prod-budget img{
+    max-width: 45vw;
+    max-height: 65vh;
+    margin-right: 3vw;
+    border: 2px solid rgba(21, 117, 16, 0.889);   
+}
+/* no. of movies per distribution company */
+.distribution-comp-movies{
+    display: flex;
+}
+.distribution-comp-movies p{
+    display: inline-block;
+    text-align: justify;
+    border: 2px solid rgb(95, 173, 91);
+    margin: 3vw; 
+    padding: 3vw;
+    font-size: large;
+    color: #486531;
+}
+.distribution-comp-movies img{
+    max-width: 45vw;
+    max-height: 65vh;
+    margin-right: 3vw;
+    border: 2px solid rgba(21, 117, 16, 0.889);   
+}
+/* genre */
+/* movies per genre */
+.movies-per-genre-pics{
+    display: flex;
+    flex: 66.66%;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+}
+.movies-per-genre img{
+    max-width: 45vw;
+    max-height: 65vh;
+    margin: 1vw;
+    border: 2px solid rgba(21, 117, 16, 0.889);
+}
+.movies-per-genre p{
+    display: inline-block;
+    text-align: justify;
+    border: 2px solid rgb(95, 173, 91);
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 3vw;
+    font-size: large;
+    color: #486531;
+    margin-bottom: 5vw;
+}
+/* gross sales per genre */
+.gross-sales-per-genre{
+    display: flex;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    flex: 66.66%;
+    align-items: center;
+}
+.gross-sales-per-genre p{
+    display: inline-block;
+    text-align: justify;
+    border: 2px solid rgb(95, 173, 91);
+    margin-left: 5vw;   
+    margin-bottom: 3vw; 
+    padding: 3vw;
+    font-size: large;
+    color: #486531;
+}
+.gross-sales-per-genre img{
+    max-width: 45vw;
+    max-height: 65vh;
+    margin-right: 3vw;
+    border: 2px solid rgba(21, 117, 16, 0.889);   
+}
+/* conclusion */
+.conclusion p{
+    margin: 5vw;
+    margin-top: 5vw;  
+    padding: 3vw;
+    border: 2px solid rgba(21, 117, 16, 0.889);
+    text-align: justify;
+    color: #486531;
+}
+/* references */
+.references{
+    text-align: center;
+    margin: 3vw;
+    border: 2px solid rgba(21, 117, 16, 0.889);
+    background-image: url(../pics/bg1.jpg);
+    background-size: cover;
+    margin-bottom: 7.5vw;
+}
+.references h1{
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+    font-family: 'CoffeCake', Fallback, sans-serif; 
+    font-size: 3vw;
+    color: #10270e;
+}
+.references p{
+    margin-bottom: 10vw;
+    color: #1e501a;
+}
+.references a{
+     text-decoration: underline;
+     color: #387939;
+}
+/* footer */
+.footer{
+    display: block;
+    position: fixed;
+    border: 2px solid #486531;
+    background-color: #93dc8c;
+    height: 10vh;
+    width: 100vw;
+    margin-top: 120vh;
+    bottom: 0px;
+}
+.footer p{
+    display: inline-block;
+    font-size: 1.2em;
+    padding-top: 3vh;
+    padding-left: 3vh;
+    color: rgb(27, 99, 46);
+    font-family: 'Playpen Sans', cursive; 
+
+}
+.footer img{
+    display: inline;
+    float: right;
+    height: 40px;
+    width: 40px;
+    margin-top: 1vh;
+    margin-right: 4vw;
+}
