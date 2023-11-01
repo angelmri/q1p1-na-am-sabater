@@ -180,8 +180,9 @@
 }
 /* table itself */
 .table{
-    margin: 5px;
-    padding-bottom: 5vw;
+    margin-left: 9vw;
+    margin-right: 9vw;
+    margin-bottom: 9vw;
     text-align: center;
 
 }
